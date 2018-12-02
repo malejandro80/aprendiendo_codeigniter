@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Start Bootstrap Theme</title>
+    <title><?= $titulo ?></title>
 
     
     <link href="<?= base_url()?>node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
