@@ -20,3 +20,4 @@
 
    
     <link href="<?= base_url()?>public/css/clean-blog.min.css" rel="stylesheet">
+    <link href="<?= base_url()?>public/css/inicio.css" rel="stylesheet">

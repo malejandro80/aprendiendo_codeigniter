@@ -37,7 +37,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="<?=base_url()?>public/js/clean-blog.min.js"></script>
-
+    <script src="<?=base_url()?>public/js/js_personalizado/perfil.js"></script>
   </body>
 
 </html>
