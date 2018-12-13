@@ -11,7 +11,7 @@ class Inicio extends CI_controller{
                 $data =array('usuario' => 'miguel');
                 $this->load->view("/template/nav", $data);
 
-                $data = array('post'=>'blog','descripcion'=>'blog hecho con codeinigter');
+                $data = array('post'=>'blog','descripcion'=>'blog demostrativo');
                 $this->load->view("/template/header",$data);
 
 

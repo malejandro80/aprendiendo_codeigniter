@@ -42,7 +42,7 @@
                 header("location: " . base_url(). "inicio");                
             }
         }
-
+       
         function logout(){
             $this->session->sess_destroy();
             header("location: " . base_url() . "inicio");            

@@ -52,7 +52,8 @@
                     <div class='form-group'>
                       <button class='btn' style='width: 380px; background-color: #ffc107;' type='submit'>INGRESAR</button>
                     </div>
-                    </form>
+                    </form> <br>
+                    <span class="">regitrarse</span>
                 </div>
               </li>
             <?php } ?>

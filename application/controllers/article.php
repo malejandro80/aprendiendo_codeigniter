@@ -1,4 +1,4 @@
-<?php 
+  <?php 
  /**
   * 
   */
@@ -50,7 +50,10 @@
                     redirect(base_url("profile"), "refresh");
                 }
                 // header("location: " . base_url() . "login/usuario". $this->session->getdate('usuario'));
-        }  
+        } 
+        function validar($campos){
+          $this->form_validation->set_rules('titulo', 'Título', 'required');
+        }
     
  }
 
