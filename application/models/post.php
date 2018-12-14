@@ -8,7 +8,7 @@
         
        public function getPost(){
 
-        return $this->db->get("post");
+        return $this->db->get("post")->result();
        }
 
        public function getPostById($id=''){

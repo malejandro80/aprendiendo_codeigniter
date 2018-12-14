@@ -53,7 +53,7 @@
                       <button class='btn' style='width: 380px; background-color: #ffc107;' type='submit'>INGRESAR</button>
                     </div>
                     </form> <br>
-                    <span class="">regitrarse</span>
+                    <button class='btn' style='width: 380px; background-color: #ffc107 ;' type='submit' id="boton_registro">registrarse</button>
                 </div>
               </li>
             <?php } ?>

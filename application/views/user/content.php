@@ -1,9 +1,10 @@
-<!-- Main Content -->
-    <div class="container">
+<h1 class="text-center">mis posts</h1>
+
+ <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
 
-         <?php foreach ($consulta as $fila) {?>
+       <!--    <?php foreach ($consulta->result() as $fila) {?>
           
           <div class="post-preview">
             <a href="<?= base_url()?>article/post/<?= $fila->id?>">
@@ -19,15 +20,16 @@
               on <?= $fila->fecha ?></p>
           </div>
           <hr>
-         <?php } ?>
+         <?php } ?> -->
              
       
           <!-- Pager -->
-          <div class="clearfix">
+          <!-- <div class="clearfix">
             <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
 
     <hr>
+
